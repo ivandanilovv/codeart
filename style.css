@@ -1,0 +1,969 @@
+.margin-0 {
+    margin: 0;
+}
+
+.slika {
+    width: 100%;
+    height: auto;
+}
+
+.pozicija {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 33%;
+}
+
+.naslov {
+    color: #363636;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 74px;
+}
+
+.paragraph {
+    color: #363636;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+/* SECOND SECTION */
+
+#second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 50px;
+}
+
+#second-section-headers {
+    width: 100%;
+}
+
+.green-span {
+    color: #549663;
+    font-weight: 800;
+}
+
+.card {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.card-header-paddings {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.pouches-left-card {
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: #F1F0F5;
+}
+
+.pouches-right-card {
+    background: rgba(230, 236, 224, 0.5);
+    margin-top: 20px;
+}
+
+.paragraph2 {
+    color: #363636;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cardHeader {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F0D8A8;
+    width: 100%;
+    padding: 22px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.amount-of-pouches {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.savings-percentage {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #363636;
+    margin: 10px 0;
+}
+
+.price {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 50px;
+    text-align: center;
+    color: #549663;
+    margin: 0 0 30px;
+}
+
+.buy-now-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFD800;
+    border-radius: 15px;
+    padding: 12px 4.5rem;
+    cursor: pointer;
+    border-width: 0;
+    margin: 0 0 5px;
+}
+
+.buy-now-button:hover {
+    background: linear-gradient(180deg, #FFE600 0%, #FFC700 100%);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.buy-now {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363636;
+}
+
+.shipping {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #363636;
+    margin-top: 3px;
+}
+
+.regular-price {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #363636;
+    margin: 0 0 20px;
+}
+
+.moneyBackGuarantee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #363636;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cancelSubscription {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #363636;
+}
+
+/* THIRD SECTION */
+
+#third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #549663;
+    color: white;
+}
+
+#third > h2 {
+    font-size: 30px;
+}
+
+#powerfulResults {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+/* FOURTH SECTION */
+
+#fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #F1F0F5;
+}
+
+.row {
+    display: block;
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.benefit-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card-margin-left {
+    margin-left: 0;
+}
+
+.card-margin-right {
+    margin-right: 0;
+}
+
+.benefit-card-images {
+    border-radius: 15px;
+    filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+    width: 100%;
+    object-fit: cover;
+}
+
+.benefit-card-header {
+    color: #549663;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.benefit-card-paragraph {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.big-buy-now-button {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 30px;
+    color: #363636;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFD800;
+    border-radius: 15px;
+    cursor: pointer;
+    border-width: 0;
+    margin: 0 0 5px;
+    width: 250px;
+    height: 40px;
+}
+
+.big-buy-now-button:hover {
+    background: linear-gradient(180deg, #FFE600 0%, #FFC700 100%);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.review-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 50px 30px 20px;
+    border-radius: 15px;
+}
+
+/* FIFTH SECTION */
+
+#fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#fifth-section-headers, #eighth-section-headers {
+    width: 90%;
+}
+
+#fifth-section-headers > h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #549663;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+#fifth-section-headers > p, #eighth-section-headers > p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #363636;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.ingredients-card {
+    background-color: #F7F7F7;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.ingredients-card > h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #549663;
+}
+
+.ingredients-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-right: 0;
+    width: 100%;
+}
+
+.ingredients-text > h2 {
+    font-weight: 800;
+    color: #549663;
+    margin: 0;
+    font-size: 30px;
+}
+
+.ingredients-text > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.ingredients-image > img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.ingredients-list {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #363636;
+    margin: 0;
+    font-size: 16px;
+}
+
+.left-image {
+    display: block;
+}
+
+.right-image {
+    display: none;
+}
+
+
+/* SIXTH SECTION */
+#sixth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #549663;
+    color: white;
+}
+
+#sixth > p {
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* SEVENTH SECTION */
+#seventh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#seventh > p {
+    width: 90%;
+}
+
+.mbg {
+    background-color: #549663;
+    width: 70%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: white;
+    padding: 60px 40px;
+    margin-top: 40px;
+}
+
+.mbg-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moneyback-image > img {
+    width: 100%;
+}
+
+.moneyback-text {
+    padding-right: 10%;
+}
+
+/* EIGHTH SECTION */
+#eighth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F0F5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#eighth-section-headers > h2 {
+    font-weight: 800;
+    line-height: 60px;
+    color: #549663;
+    margin: 0;
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.right-margin div p{
+    margin-right: 15px;
+    text-align: end;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.left-margin div p {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+
+
+/* NINETH SECTION */
+#nineth {
+    /*background-image: url('images/background-image.jfif');*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-color: #F0D8A8;*/
+    background: linear-gradient(rgba(240, 216, 168, 0.2), rgba(240, 216, 168, 0.2)),
+        url("images/background-image.jfif") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.safe-and-effective-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.safe-and-effective-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 90%;
+}
+
+/* TENTH SECTION */
+#tenth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #549663;
+    color: white;
+}
+#tenth > h2 {
+    font-size: 30px;
+}
+#tenth > img {
+    bottom: -15%;
+}
+
+.left-card-margin {
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+
+/* FOOTER */
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.links > a, .support > p {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363636;
+}
+.support {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.links-margin-right {
+    margin-right: 3%;
+}
+
+#footer > p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+/* FAQ */
+#faq {
+    background-color: #F1F0F5;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.accordion {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
+    border: 2px solid #549663;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #549663;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.answer p {
+    padding: 20px 30px;
+    font-size: 16px;
+}
+.accordion.active .answer {
+    max-height: 730px;
+}
+
+.faq.active img {
+    transform: rotate(180deg);
+}
+
+.faq.active > img {
+    transition: transform 0.5s ease-in;
+}
+
+.mbg > img {
+    display: none;
+}
+
+
+
+/* Extra small devices */
+@media (max-width: 575.99px) {
+    .big-buy-now-button {
+        width: 250px;
+        height: 40px;
+    }
+
+    .email {
+        font-size: 15px;
+    }
+
+    .mbg > h2 {
+        font-size: 30px;
+    }
+
+    .moneyback-text {
+        padding: 0;
+    }
+}
+
+/* Small devices */
+@media (min-width: 576px) {
+    /* SECOND SECTION */
+    .big-buy-now-button {
+        width: 300px;
+        height: 50px;
+    }
+
+    /* FIFTH SECTION */
+    .ingredients-list {
+        font-size: 20px;
+    }
+
+    .ingredients-text > h2 {
+        font-size: 40px;
+    }
+
+    .ingredients-text > p {
+        font-size: 20px;
+    }
+
+    #fifth-section-headers > p, #eighth-section-headers > p {
+        font-size: 30px;
+    }
+
+    #fifth-section-headers > h2 {
+        font-size: 40px;
+    }
+
+    #eighth-section-headers > h2 {
+        font-size: 50px;
+    }
+
+    /* SEVENTH SECTION */
+    .mbg {
+        width: 80%;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+    }
+
+    .card-margin-left {
+        margin-left: 20px;
+    }
+
+    .card-margin-right {
+        margin-right: 20px;
+    }
+
+    .pouches-left-card {
+        margin-right: 10px;
+    }
+
+    .pouches-right-card {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+    .moneyBackGuarantee {
+        align-items: start;
+    }
+
+    .cancelSubscription {
+        margin-left: 15px;
+    }
+
+    #second-section-headers {
+        width: 80%;
+    }
+
+    /* THIRD SECTION */
+    #powerfulResults {
+        font-size: 50px;
+    }
+
+    #third > h2 {
+        font-size: 40px;
+    }
+
+    /* FOURTH SECTION */
+    .benefit-card-paragraph {
+        padding-right: 20px;
+    }
+
+    .benefit-card {
+        width: 40%;
+    }
+
+    .review-card {
+        width: 35%;
+    }
+
+    .big-buy-now-button {
+        width: 400px;
+        height: 60px;
+    }
+
+    /* FIFTH SECTION */
+    #fifth-section-headers {
+        width: 65%;
+    }
+
+    /* SIXTH SECTION */
+    #sixth > p {
+        font-size: 40px;
+    }
+
+    /* EIGHTH SECTION */
+    #eighth-section-headers {
+        width: 53%;
+    }
+
+    /* NINETH SECTION */
+    .left-card-margin {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    .safe-and-effective-row {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .safe-and-effective-card {
+        width: 45%;
+    }
+
+    /* TENTH SECTION */
+    #tenth > img {
+        bottom: -20%;
+    }
+
+    /* FOOTER */
+    .links {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    #footer > p {
+        width: 49%;
+    }
+
+    /* FAQ */
+    .answer p {
+        font-size: 20px;
+    }
+
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+}
+
+/* XL devices */
+@media (min-width: 1200px) {
+    .benefit-card {
+        width: 29%;
+    }
+
+    .big-buy-now-button {
+        width: 600px;
+        height: 80px;
+    }
+
+    #second-section-headers {
+        width: 51%;
+    }
+
+    .card-header-paddings {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* FOURTH SECTION */
+    .review-card {
+        width: 25%;
+    }
+
+    /* FIFTH SECTION */
+    .left-image {
+        display: none;
+    }
+
+    .right-image {
+        display: block;
+    }
+
+    .ingredients-card {
+        flex-direction: row;
+    }
+
+    .ingredients-text {
+        padding-right: 30px;
+        width: auto;
+    }
+
+    .ingredients-image > img, .moneyback-image > img {
+        width: auto;
+    }
+
+    /* SEVENTH SECTION */
+    #seventh > p {
+        width: 58%;
+    }
+
+    .mbg-card {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .mbg {
+        width: 60%;
+    }
+
+    .mbg > img {
+        display: block;
+        position: absolute;
+        bottom: -10%;
+        right: -10%;
+        width: 40%;
+        height: auto;
+        opacity: 10%;
+        transform: rotate(90deg);
+        z-index: 1;
+    }
+
+    /* NINETH SECTION */
+    .safe-and-effective-card {
+        width: 23%;
+    }
+
+}
+@media (min-width: 1920px) {
+    .pozicija {
+        display: block;
+    }
+}
