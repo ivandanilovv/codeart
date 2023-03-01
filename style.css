@@ -2,12 +2,12 @@
     margin: 0;
 }
 
-.slika {
+.hero-image {
     width: 100%;
     height: auto;
 }
 
-.pozicija {
+.hero-text-position {
     display: none;
     position: absolute;
     top: 10%;
@@ -15,7 +15,7 @@
     width: 33%;
 }
 
-.naslov {
+.hero-header {
     color: #363636;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
@@ -24,20 +24,16 @@
     line-height: 74px;
 }
 
-.paragraph {
-    color: #363636;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+.hero-paragraph {
     font-size: 36px;
     line-height: 46px;
     margin-top: 40px;
     margin-bottom: 0;
 }
 
-/* SECOND SECTION */
+/* PURCHASE BUNDLES SECTION */
 
-#second {
+#purchaseBundles {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,13 +41,20 @@
     margin: auto auto 50px;
 }
 
-#second-section-headers {
+#purchaseBundles-section-headers {
     width: 100%;
 }
 
 .green-span {
     color: #549663;
     font-weight: 800;
+}
+
+#purchaseBundles-section-headers p {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .card {
@@ -80,23 +83,10 @@
     margin-top: 20px;
 }
 
-.paragraph2 {
-    color: #363636;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
-}
-
 .cardHeader {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 30px;
     line-height: 30px;
-    text-align: center;
     text-transform: uppercase;
     background-color: #F0D8A8;
     width: 100%;
@@ -106,8 +96,6 @@
 
 
 .amount-of-pouches {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -116,19 +104,13 @@
 }
 
 .savings-percentage {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #363636;
     margin: 10px 0;
 }
 
 .price {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 52px;
     line-height: 50px;
@@ -152,7 +134,7 @@
 
 .buy-now-button:hover {
     background: linear-gradient(180deg, #FFE600 0%, #FFC700 100%);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .buy-now {
@@ -167,24 +149,19 @@
 }
 
 .shipping {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
-    text-align: center;
+    text-transform: none;
     color: #363636;
     margin-top: 3px;
 }
 
 .regular-price {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-    color: #363636;
     margin: 0 0 20px;
 }
 
@@ -193,30 +170,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #363636;
     width: 100%;
     margin-top: 30px;
 }
 
-.cancelSubscription {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #363636;
-}
 
-/* THIRD SECTION */
+/* EXPERIENCE POWERFUL RESULTS SECTION */
 
-#third {
+#experiencePowerfulResults {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,13 +186,11 @@
     color: white;
 }
 
-#third > h2 {
+#experiencePowerfulResults > h2 {
     font-size: 30px;
 }
 
 #powerfulResults {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 60px;
@@ -241,7 +200,7 @@
 
 /* FOURTH SECTION */
 
-#fourth {
+#benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +211,6 @@
 
 .row {
     display: block;
-    /*display: flex;*/
     flex-direction: row;
     justify-content: center;
     align-items: start;
@@ -280,7 +238,6 @@
     border-radius: 15px;
     filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
     width: 100%;
-    object-fit: cover;
 }
 
 .benefit-card-header {
@@ -288,7 +245,15 @@
     margin-top: 30px;
     margin-bottom: 20px;
     width: 100%;
-    text-align: center;
+}
+
+.benefit-card-italic-paragraph {
+    font-style: italic;
+    color: #D43B4A;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
 }
 
 .benefit-card-paragraph {
@@ -316,15 +281,10 @@
 
 .big-buy-now-button:hover {
     background: linear-gradient(180deg, #FFE600 0%, #FFC700 100%);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .review-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
     margin-bottom: 50px;
     background-color: white;
     padding: 50px 30px 20px;
@@ -333,7 +293,7 @@
 
 /* FIFTH SECTION */
 
-#fifth {
+#ingredients {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -341,38 +301,30 @@
     margin-bottom: 40px;
 }
 
-#fifth-section-headers, #eighth-section-headers {
+#ingredients-section-headers, #facts-section-headers {
     width: 90%;
 }
 
-#fifth-section-headers > h2 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
+#ingredients-section-headers > h2 {
     font-weight: 800;
     font-size: 30px;
-    line-height: 52px;
-    text-align: center;
-    text-transform: capitalize;
     color: #549663;
     margin-top: 60px;
     margin-bottom: 0;
 }
 
-#fifth-section-headers > p, #eighth-section-headers > p {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
+#ingredients-section-headers > p, #facts-section-headers > p {
     font-weight: 800;
     font-size: 20px;
     line-height: 38px;
     text-align: center;
-    color: #363636;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .ingredients-card {
     background-color: #F7F7F7;
-    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     width: 65%;
     display: flex;
@@ -381,17 +333,6 @@
     justify-content: space-between;
     padding: 30px;
     margin-bottom: 20px;
-}
-
-.ingredients-card > h2 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #549663;
 }
 
 .ingredients-text {
@@ -408,6 +349,7 @@
     color: #549663;
     margin: 0;
     font-size: 30px;
+    text-align: start;
 }
 
 .ingredients-text > p {
@@ -424,7 +366,6 @@
 .ingredients-list {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
     line-height: 28px;
     color: #363636;
     margin: 0;
@@ -440,8 +381,8 @@
 }
 
 
-/* SIXTH SECTION */
-#sixth {
+/* REDISCOVER NATURAL ENERGY SECTION */
+#rediscoverNaturalEnergy {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -450,7 +391,7 @@
     color: white;
 }
 
-#sixth > p {
+#rediscoverNaturalEnergy > p {
     font-size: 30px;
     line-height: 52px;
     text-align: center;
@@ -461,7 +402,7 @@
 }
 
 /* SEVENTH SECTION */
-#seventh {
+#purchaseBundlesAndReviews {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -469,7 +410,7 @@
     margin-bottom: 60px;
 }
 
-#seventh > p {
+#purchaseBundlesAndReviews > p {
     width: 90%;
 }
 
@@ -498,8 +439,8 @@
     padding-right: 10%;
 }
 
-/* EIGHTH SECTION */
-#eighth {
+/* FACTS SECTION */
+#facts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,24 +450,31 @@
     padding-bottom: 60px;
 }
 
-#eighth-section-headers > h2 {
+#facts-section-headers > h2 {
     font-weight: 800;
     line-height: 60px;
     color: #549663;
     margin: 0;
 }
 
+.why-green-and-lean-row {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .red {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .col {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 35%;
+    margin: 20px 0;
 }
 
 .right-margin div p{
@@ -546,15 +494,10 @@
 
 
 
-/* NINETH SECTION */
-#nineth {
-    /*background-image: url('images/background-image.jfif');*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*background-color: #F0D8A8;*/
+/* Safe And Effective SECTION */
+#safeAndEffective {
     background: linear-gradient(rgba(240, 216, 168, 0.2), rgba(240, 216, 168, 0.2)),
-        url("images/background-image.jfif") no-repeat center;
+        url("images/safe-and-effective/background-image.jfif") no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -584,8 +527,8 @@
     width: 90%;
 }
 
-/* TENTH SECTION */
-#tenth {
+/* EXPERIENCE THE TRANSFORMATION SECTION */
+#experienceTheTransformation {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -593,10 +536,10 @@
     background-color: #549663;
     color: white;
 }
-#tenth > h2 {
+#experienceTheTransformation > h2 {
     font-size: 30px;
 }
-#tenth > img {
+#experienceTheTransformation > img {
     bottom: -15%;
 }
 
@@ -643,6 +586,10 @@
     line-height: 20px;
     text-align: center;
     width: 90%;
+}
+
+.links > a:hover {
+    color: #549663;
 }
 
 /* FAQ */
@@ -727,7 +674,7 @@
 
 /* Small devices */
 @media (min-width: 576px) {
-    /* SECOND SECTION */
+    /* PURCHASE BUNDLES SECTION */
     .big-buy-now-button {
         width: 300px;
         height: 50px;
@@ -746,15 +693,15 @@
         font-size: 20px;
     }
 
-    #fifth-section-headers > p, #eighth-section-headers > p {
+    #ingredients-section-headers > p, #facts-section-headers > p {
         font-size: 30px;
     }
 
-    #fifth-section-headers > h2 {
+    #ingredients-section-headers > h2 {
         font-size: 40px;
     }
 
-    #eighth-section-headers > h2 {
+    #facts-section-headers > h2 {
         font-size: 50px;
     }
 
@@ -795,16 +742,16 @@
         margin-left: 15px;
     }
 
-    #second-section-headers {
+    #purchaseBundles-section-headers {
         width: 80%;
     }
 
-    /* THIRD SECTION */
+    /* EXPERIENCE POWERFUL RESULTS SECTION */
     #powerfulResults {
         font-size: 50px;
     }
 
-    #third > h2 {
+    #experiencePowerfulResults > h2 {
         font-size: 40px;
     }
 
@@ -827,21 +774,38 @@
     }
 
     /* FIFTH SECTION */
-    #fifth-section-headers {
+    #ingredients-section-headers {
         width: 65%;
     }
 
-    /* SIXTH SECTION */
-    #sixth > p {
+    /* REDISCOVER NATURAL ENERGY SECTION */
+    #rediscoverNaturalEnergy > p {
         font-size: 40px;
     }
 
-    /* EIGHTH SECTION */
-    #eighth-section-headers {
+    /* FACTS SECTION */
+    #facts-section-headers {
         width: 53%;
     }
 
-    /* NINETH SECTION */
+    .why-green-and-lean-row {
+        display: flex;
+    }
+
+    .col {
+        width: 25%;
+        margin: 0;
+    }
+
+    .right-margin {
+        align-items: end;
+    }
+
+    .left-margin {
+        align-items: start;
+    }
+
+    /* Safe And Effective SECTION */
     .left-card-margin {
         margin-right: 30px;
         margin-bottom: 0;
@@ -856,8 +820,8 @@
         width: 45%;
     }
 
-    /* TENTH SECTION */
-    #tenth > img {
+    /* EXPERIENCE THE TRANSFORMATION SECTION */
+    #experienceTheTransformation > img {
         bottom: -20%;
     }
 
@@ -894,7 +858,7 @@
         height: 80px;
     }
 
-    #second-section-headers {
+    #purchaseBundles-section-headers {
         width: 51%;
     }
 
@@ -931,7 +895,7 @@
     }
 
     /* SEVENTH SECTION */
-    #seventh > p {
+    #purchaseBundlesAndReviews > p {
         width: 58%;
     }
 
@@ -956,14 +920,19 @@
         z-index: 1;
     }
 
-    /* NINETH SECTION */
+    /* Safe And Effective SECTION */
     .safe-and-effective-card {
         width: 23%;
     }
 
 }
 @media (min-width: 1920px) {
-    .pozicija {
+    .hero-text-position {
         display: block;
     }
+}
+
+/* ROTATE IMAGE */
+.rotate-image {
+    rotate: 180deg;
 }

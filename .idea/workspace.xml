@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8b60a46-f088-4b7f-bf7e-5738db423c8b" name="Default Changelist" comment="" />
+    <list default="true" id="c8b60a46-f088-4b7f-bf7e-5738db423c8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-tags-override.css" beforeDir="false" afterPath="$PROJECT_DIR$/html-tags-override.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Pouch Mockup_3 pieces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Pouch Mockup_5 pieces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/all-day-energy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background-image.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/credit-cards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/green-and-lean.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/greenandlean.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/guarantee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/improved-memory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ingredient9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/keyboard_arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/maintain-calmness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sharper-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/symbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +52,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2M925PPtlwR7mxO0nhhnxiIkjMV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -44,11 +85,25 @@
       <workItem from="1677257111437" duration="6629000" />
       <workItem from="1677320860389" duration="9319000" />
       <workItem from="1677429796773" duration="2614000" />
-      <workItem from="1677498744014" duration="27966000" />
+      <workItem from="1677498744014" duration="28146000" />
+      <workItem from="1677595167573" duration="8828000" />
+      <workItem from="1677670233573" duration="8668000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
